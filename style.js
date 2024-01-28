@@ -108,7 +108,7 @@ function updateCountdown() {
         const minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
         const seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
 
-        document.getElementById('countdown').innerHTML = `${days}h&nbsp ${hours}h&nbsp ${minutes}mm&nbsp ${seconds}s`;
+        document.getElementById('countdown').innerHTML = `${days}d&nbsp ${hours}h&nbsp ${minutes}mm&nbsp ${seconds}s`;
     }
 }
 
