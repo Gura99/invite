@@ -90,9 +90,9 @@ function playMusicWithButton() {
      });
  }
 //  clear
-//  window.addEventListener("beforeunload", function () {
-//     localStorage.clear();
-// });
+ window.addEventListener("beforeunload", function () {
+    localStorage.clear();
+});
 
 
 // Set the target wedding date (YYYY, MM-1, DD)
