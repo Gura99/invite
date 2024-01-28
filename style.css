@@ -368,7 +368,8 @@ form input,form textarea {
 /* ---------OUR PROJECT----------- */
 
 @media only screen
-and (max-device-width: 812px) 
+and (max-device-width: 812px)
+and (max-device-height: 896px)
 and (-webkit-min-device-pixel-ratio: 3){
 .card {
     margin-bottom: 30px;
